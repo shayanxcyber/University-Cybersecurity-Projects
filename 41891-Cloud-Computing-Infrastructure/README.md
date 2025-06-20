@@ -34,17 +34,17 @@ Through these labs, I gained practical proficiency in the following key areas of
 
 Each lab represents a key building block of the final infrastructure. Click on a lab to view a detailed write-up of the objectives, procedures, and core concepts demonstrated.
 
-*   **[Lab 1: ESXi Installation and VM Deployment](./Lab-01-ESXi-and-VM-Deployment/README.md)**
+*   **[Lab 1: ESXi Installation and VM Deployment](https://github.com/shayanxcyber/VMware-vSphere-Lab-Projects/tree/main/Lab-01-ESXi-and-VM-Deployment)**
     *   *Focus: Installing a Type-1 hypervisor and deploying a guest VM.*
 
-*   **[Lab 2: iSCSI Shared Storage Configuration](./Lab-02-iSCSI-Storage-Configuration/README.md)**
+*   **[Lab 2: iSCSI Shared Storage Configuration](https://github.com/shayanxcyber/VMware-vSphere-Lab-Projects/tree/main/Lab-02-iSCSI-Storage-Configuration)**
     *   *Focus: Connecting ESXi hosts to a central SAN using the iSCSI protocol.*
 
-*   **[Lab 3: vCenter Server Deployment and vMotion](./Lab-03-vCenter-Server-and-vMotion/README.md)**
+*   **[Lab 3: vCenter Server Deployment and vMotion](https://github.com/your-username/VMware-vSphere-Lab-Projects/tree/main/Lab-03-vCenter-Server-and-vMotion)**
     *   *Focus: Centralising management with VCSA and performing live VM migrations.*
 
-*   **[Lab 4: vSphere Standard Switches and VLANs](./Lab-04-vSwitches-and-Port-Groups/README.md)**
+*   **[Lab 4: vSphere Standard Switches and VLANs](https://github.com/your-username/VMware-vSphere-Lab-Projects/tree/main/Lab-04-vSwitches-and-Port-Groups)**
     *   *Focus: Creating logically isolated networks using VLANs for security and segmentation.*
 
-*   **[Lab 5: vSphere Clusters, Resource Pools, and HA](./Lab-05-Resource-Pools-and-HA/README.md)**
+*   **[Lab 5: vSphere Clusters, Resource Pools, and HA](https://github.com/your-username/VMware-vSphere-Lab-Projects/tree/main/Lab-05-Resource-Pools-and-HA)**
     *   *Focus: Aggregating host resources and configuring automated failover with High Availability.*
