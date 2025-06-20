@@ -16,7 +16,7 @@ The website serves as an introduction to me, detailing my background, my academi
 *   **Accessibility:** Core accessibility principles were implemented, including the use of `alt` text for all images to support visually impaired users.
 *   **UNIX Server-Side Management:** A key requirement of this project was not just building the site, but deploying it on a Linux server. This involved:
     *   Using the command line to create a secure and logical directory structure (`mkdir`).
-    *   Setting appropriate file and directory permissions (`chmod`) to ensure the web server could read the files while protecting them from unauthorized access or modification.
+    *   Setting appropriate file and directory permissions (`chmod`) to ensure the web server could read the files while protecting them from unauthorised access or modification.
 
 ### Areas for Improvement
 
