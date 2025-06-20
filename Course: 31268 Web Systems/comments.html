@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Comments - Shayan Web Systems Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, minimal-ui">
+    <link rel="StyleSheet" href="websystems.css">
+</head>
+<body>
+    <header> 
+        <h2> Shayan Ali</h2>
+        <nav> 
+            <ul> 
+                <li><a href="index.html">Home</a></li>
+                <li><a href="past.html">My Past</a></li>
+                <li><a href="future.html">Future</a></li>
+                <li><a href="comments.html" class="active">Comments</a></li>
+            </ul>
+        </nav> 
+    </header>
+
+    <div class="main"> 
+        <div class="title">Comments</div> 
+    </div>
+
+    <div class="info">
+        <h3 class="heading">Personal Reflection</h3>
+        <div class="description">
+            <p>
+                I'm happy with the way my website turned out. I wanted a clean, modern design that effectively showcases everything abotu me. Using vibrant backgrounds and a simple layout creates a visually appealing experience without sacrificing easy navigation and readability. I think I achieved a good balance between aesthetics and functionality, making the website both engaging and informative.
+            </p>
+        </div>
+    </div>
+
+    <div class="info">
+        <h3 class="heading">Technical Aspects</h3>
+        <div class="description">
+            <h4>Structure</h4>
+            <p>
+                Looking at the HTML code, you can see I used divs as the main building blocks for the layout. Each page (index.html, past.html, future.html) follows a similar structure with a header, main content area, and footer. For instance, the header in index.html is created with the header tag and contains the h2 tag for my name and the nav element with an unordered list (ul) for the navigation links.
+            </p>
+            
+            <section class="images-ref"> 
+                <figure>
+                    <img src="Structure1.png" alt="Structure Code">
+                    <figcaption>Index.html Structure</figcaption>
+                </figure>
+            </section>
+
+            <h4>CSS Selectors</h4>
+            <p>
+                I used classes like .main, .title, and .info to style elements that appear on multiple pages. You can see this in websystems.css. For example, the .info class styles the boxes with my personal information and uses background: rgba(0, 0, 0, 0.293); to give them a semi-transparent black background.  
+            </p>
+
+            <section class="images-ref"> 
+                <figure>
+                    <img src="css1.png" alt="CSS Selectors">
+                    <figcaption>CSS Selectors</figcaption>
+                </figure>
+
+            </section>
+
+            <h4>Responsiveness</h4>
+            <p>
+                The website adapts to different screen sizes thanks to the meta tag with name="viewport" in each HTML file and media queries in the CSS. This is evident in the way the navigation bar changes its layout on smaller screens. For example, the media query @media (max-width: 600px) in websystems.css adjusts the font size of the header and navigation links for better readability on smaller devices. 
+            </p>
+            <section class="images-ref"> 
+                <figure>
+                    <img src="responsiveness.png" alt="Media Query">
+                    <figcaption>Media Querty</figcaption>
+                </figure>
+
+            </section>
+
+            <h4>Effects</h4>
+            <p>
+                I used CSS3 features like box-shadow (visible on the image captions) and border-radius to create rounded corners on elements like the information boxes and image thumbnails. The slight fade-in animation on page load is achieved using animation: fadeIn 2s; in the CSS, adding a subtle dynamic touch.
+            </p>
+            <section class="images-ref"> 
+                <figure>
+                    <img src="effects.png" alt="Effects">
+                    <figcaption>Effect</figcaption>
+                </figure>
+
+            </section>
+        
+        </div>
+    </div>
+
+    <div class="info">
+        <h3 class="heading">Aesthetics</h3>
+        <div class="description">
+            <h4>Minimalism</h4>
+            <p>
+                The overall aesthetic is minimalist, with a focus on clean lines and ample white space. This is evident in the layout of the text and images, particularly on pages like "My Past" where the information is presented in clear sections with space between them. The color palette of black, white, and grey creates a neutral base that allows the vibrant background images to stand out.
+            </p>
+
+            <h4>Typography</h4>
+            <p>
+                The choice of fonts, Roboto for headings and Open Sans for body text, ensures readability and creates a clear visual hierarchy. This is noticeable in sections like "Who am I?" where the heading is distinct from the paragraph text.
+            </p>
+
+            <h4>Visual Hierarchy</h4>
+            <p>
+                Headings like "HSC" and "Work Experience" on the "My Past" page guide the user's attention and provide a clear structure to the content. The use of paragraphs and line breaks further enhances readability.
+            </p>
+
+            <h4>Imagery</h4>
+            <p>
+                The personal photos, like the ones of my cat Daisy and my gaming setup, add personality and visual interest. The circular cropping of images in the "images-second" sections creates a cohesive look.
+            </p>
+        </div>
+    </div>
+
+    <div class="info">
+        <h3 class="heading">Accessibility</h3>
+        <div class="description">
+            <h4>Alt Text</h4>
+            <p>
+                All images have alt text. For example, the images of Daisy have descriptions like "Daisy watching football" and "Daisy looking outside," which would be read by screen readers, allowing visually impaired users to understand the content. 
+            </p>
+
+            <h4>Text Size and Contrast</h4>
+            <p>
+                The font size is set at 16px, ensuring comfortable reading. The black text against the light backgrounds and white text on dark backgrounds provides good contrast. For example, the white text on the information boxes is easily readable against the semi-transparent black background.
+            </p>
+
+            <h4>Semantic HTML</h4>
+            <p>
+                Using semantic elements like header, nav, and footer helps screen readers understand the structure of the page. This is evident in the consistent use of these elements across all pages. 
+            </p>
+
+            <h4>Responsiveness</h4>
+            <p>
+                The responsive design ensures the website is accessible on various devices. This benefits users with different needs and preferences, allowing them to comfortably access the content on their chosen device.
+            </p>
+        </div>
+    </div>
+
+    <div class="info">
+        <h3 class="heading">Areas for Improvement</h3>
+        <div class="description">
+            <h4>ARIA attributes</h4>
+            <p>
+                While alt text is used for images, adding ARIA attributes like aria-label could further improve accessibility for users with screen readers. For example, the navigation links and icons could benefit from more descriptive labels. 
+            </p>
+
+            <h4>Color Contrast</h4>
+            <p>
+                While the color contrast is generally good, there are areas where it could be further enhanced. For instance, the white text overlaid on the brighter sections of the background images might be difficult to read for some users. Adjusting the text color or adding a subtle background behind the text could improve readability. 
+            </p>
+
+            <h4>Keyboard Navigation</h4>
+            <p>
+                Implementing keyboard navigation would allow users who rely on keyboards to navigate the site effectively. This includes ensuring all interactive elements like links and buttons can be accessed and activated using the keyboard. 
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <span class="copyright">© Copyright Shayan Ali 2024</span>
+        <span class="student-info">Student Number: 25555501 | Web Systems | Subject Code: 31268</span>
+    </footer>
+  
+</body>
+</html>
