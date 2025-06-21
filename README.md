@@ -17,7 +17,7 @@ Below is a summary of my most relevant coursework, organized by year. Each entry
     *   **Description:** A hands-on blue team project focused on analyzing and designing a defense-in-depth strategy to mitigate a critical Broken Access Control (IDOR) vulnerability in a web application.
     *   **Key Skills:** Vulnerability Analysis, Blue Team/Defensive Security, OWASP Top 10, System Hardening, Burp Suite, Technical Report Writing.
 
-*   **41900: Cryptography and Applications** - [View Course Projects](.Cryptography/)
+*   **41900: Cryptography** - [View Course Projects](https://github.com/shayanxcyber/University-Cybersecurity-Projects/tree/main/Cryptography)
     *   **Description:** A project-based course covering the implementation of Public Key Infrastructure (PKI) with OpenSSL and the deployment of a private Ethereum blockchain with `geth`.
     *   **Key Skills:** PKI, TLS/HTTPS, Blockchain, Ethereum, OpenSSL, `geth`.
 
