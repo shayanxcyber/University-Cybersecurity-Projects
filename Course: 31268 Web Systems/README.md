@@ -1,26 +1,42 @@
-# Personal Portfolio Website
+# Personal Portfolio Website (Web Systems Project)
 
-This is a personal portfolio website created as the final project for the **31268 Web Systems** course at the University of Technology Sydney. The project was built from scratch using fundamental web technologies to demonstrate a comprehensive understanding of web development, server-side setup, and security principles.
+This repository contains a personal portfolio website built from scratch as the major project for the **31268 Web Systems** course at the University of Technology Sydney.
 
-The website serves as an introduction to me, detailing my background, my academic journey, and my future aspirations in the field of cybersecurity.
-
-### Key Features & Technical Skills Demonstrated:
-
-*   **Responsive Design:** The website is fully responsive and functional on various devices, from mobile phones to desktops. This was achieved using CSS Media Queries to adapt layouts, font sizes, and navigation elements.
-*   **Semantic HTML5:** The structure is built with semantic tags like `<header>`, `<nav>`, `<footer>`, and `<section>`, ensuring the site is accessible and easily parsed by search engines and screen readers.
-*   **CSS3 Styling:** The site is styled using an external CSS stylesheet, employing features such as:
-    *   Flexbox for layout management.
-    *   CSS Animations (`@keyframes`) for subtle fade-in effects.
-    *   Pseudo-classes (`:hover`, `.active`) for interactive navigation.
-    *   `box-shadow` and `border-radius` for modern UI elements.
-*   **Accessibility:** Core accessibility principles were implemented, including the use of `alt` text for all images to support visually impaired users.
-*   **UNIX Server-Side Management:** A key requirement of this project was not just building the site, but deploying it on a Linux server. This involved:
-    *   Using the command line to create a secure and logical directory structure (`mkdir`).
-    *   Setting appropriate file and directory permissions (`chmod`) to ensure the web server could read the files while protecting them from unauthorised access or modification.
-
-### Areas for Improvement
-
-As reflected on the comments page of the site itself, future improvements could include implementing ARIA attributes for enhanced accessibility and further refining keyboard navigation.
+The project's goal was not only to demonstrate fundamental web development skills but also to apply core system administration and security principles by deploying the site on a Linux server and configuring appropriate permissions from the command line.
 
 ---
-*This project was completed for the 31268 Web Systems course. The code is entirely my own.*
+
+### Key Features & Technical Skills Demonstrated
+
+*   **Manual Web Development (HTML5 & CSS3):**
+    *   The website was built entirely by hand without the use of frameworks, demonstrating a strong understanding of core web technologies.
+    *   Structured with **Semantic HTML5** elements (`<header>`, `<nav>`, `<footer>`, `<section>`) for better accessibility and SEO.
+    *   Styled using an external stylesheet (`websystems.css`) with **CSS3** features like Flexbox for layout, media queries for responsiveness, and keyframe animations for subtle visual effects.
+
+*   **Responsive Design:**
+    *   The layout is fully responsive, ensuring a seamless user experience on a wide range of devices, from mobile phones to desktop monitors. This was achieved using CSS media queries to adapt the layout and font sizes based on screen width.
+
+*   **UNIX Server-Side Deployment & Permissions:**
+    *   A critical component of this project was the server-side setup on a Linux environment.
+    *   This involved using the **UNIX command line** to create a secure and logical directory structure for the website files (`mkdir`).
+    *   File and directory permissions were meticulously set using the **`chmod`** command to ensure the web server could read the necessary files while protecting them from unauthorised access or modification—a fundamental security practice.
+
+*   **Project Reflection & Accessibility:**
+    *   The `comments.html` page in this repository contains a detailed self-reflection on the project's technical implementation, design choices, and accessibility considerations, such as the consistent use of `alt` text for all images.
+
+---
+
+### Viewing the Project
+
+*   **Live Demo (via GitHub Pages):**
+    *   This repository is configured for deployment as a live website using GitHub Pages.
+    *   A live, interactive version can be accessed at the following URL:  
+      `https://shayanxcyber.github.io/Course:-31268-Web-Systems/`
+
+*   **Source Code:**
+    *   The complete source code, including all HTML, CSS, and image assets, is available in this repository for review.
+
+---
+
+*Disclaimer: This project was completed for the 31268 Web Systems course. The design and code are the original work of the author.*
+
